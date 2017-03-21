@@ -1,0 +1,28 @@
+{
+  "name": "gumga-click-sync-ng",
+  "description": "Gumga Click Sync",
+  "version": "1.0.0",
+  "main": "./src/gumga-click-sync.js",
+  "authors": [
+    "Gumga Tecnologia da Informação S/A",
+    "Felipe Sabadini Facina"
+  ],
+  "license": "LGPL-3.0",
+  "keywords": [
+    "gumga",
+    "gumga-click-sync",
+    "angular 1.x"
+  ],
+  "homepage": "https://github.com/gumga/gumga-click-sync-ng",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "moment-timezone": "^0.5.11"
+  }
+}
