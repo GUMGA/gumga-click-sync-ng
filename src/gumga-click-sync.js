@@ -6,15 +6,15 @@
         elm.bind('click', (event) => {
             event.stopImmediatePropagation();
 
-            const promisse = scope.gumgaClickSync();
+            const promise = scope.gumgaClickSync();
 
-            if(!promisse){
-                throw 'A diretiva gumgaClickSync necessita que a função retorne uma promisse.';
+            if(!promise){
+                throw 'A diretiva gumgaClickSync necessita que a função retorne uma promise.';
             }
 
             elm[0].disabled = true;
 
-            promisse.then(()=>{
+            promise.then(()=>{
                 elm[0].disabled = false;
             })
 
