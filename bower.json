@@ -1,7 +1,7 @@
 {
   "name": "gumga-click-sync-ng",
   "description": "Gumga Click Sync",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./src/gumga-click-sync.js",
   "authors": [
     "Gumga Tecnologia da Informação S/A",
@@ -22,7 +22,6 @@
     "tests"
   ],
   "dependencies": {
-    "angular": "^1.5.8",
-    "moment-timezone": "^0.5.11"
+    "angular": "^1.5.8"
   }
 }
