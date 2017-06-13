@@ -15,8 +15,12 @@
                 return $q(function (resolve) {
                     $timeout(function () {
                         resolve({data: x})
-                    }, 5000)
+                    }, 3000)
                 })
+            }
+
+            $scope.teste = function(){
+              alert('clicou');
             }
 
 
