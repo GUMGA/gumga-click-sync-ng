@@ -4,7 +4,6 @@
     const controller = (scope, elm, attr) => {
 
         elm.bind('click', (event) => {
-            event.stopImmediatePropagation();
 
             const promise = scope.gumgaClickSync();
 

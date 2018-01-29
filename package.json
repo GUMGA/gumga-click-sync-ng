@@ -1,6 +1,6 @@
 {
   "name": "gumga-click-sync-ng",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Gumga Button Sync",
   "main": "./src/gumga-click-sync.js",
   "directories": {

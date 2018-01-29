@@ -79,6 +79,7 @@
     var controller = function controller(scope, elm, attr) {
 
         elm.bind('click', function (event) {
+            event.stopImmediatePropagation();
 
             var promise = scope.gumgaClickSync();
 

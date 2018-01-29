@@ -1,7 +1,7 @@
 {
   "name": "gumga-click-sync-ng",
   "description": "Gumga Click Sync",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "main": "./src/gumga-click-sync.js",
   "authors": [
     "Gumga Tecnologia da Informação S/A",
