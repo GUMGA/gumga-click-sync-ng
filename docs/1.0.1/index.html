@@ -35,7 +35,7 @@
       <div class="row">
         <div class="col-xs-4">
           <h2>Descrição</h2>
-          <p>O componente gumga-click-sync-ng bloqueia os botões enquanto seus requisições estõ sendo realizadas, isso evita que o usuário clique mais de uma vez no mesmo lugar antes que um retorno seja feito.</p>
+          <p>O componente gumga-click-sync-ng bloqueia os botões enquanto suas requisições estão sendo realizadas, isso evita que o usuário clique mais de uma vez no mesmo lugar antes que haja um retorno.</p>
         </div>
         <div class="col-xs-8">
           <h3>Instalação</h3>
@@ -63,7 +63,7 @@ angular.module('app', ['gumga.click-sync'])
         <div class="panel-body">
           <div class="row">
             <div class="col-xs-6">
-              <button gumga-click-sync="save({name: 'example'})" class="btn btn-primary">Click me</button>
+              <button gumga-click-sync="save({name: 'example'})" class="btn btn-primary">Carregar</button>
             </div>
             <div class="col-xs-6">
               <ul class="nav nav-tabs" role="tablist">
@@ -74,7 +74,7 @@ angular.module('app', ['gumga.click-sync'])
                 <div role="tabpanel" class="tab-pane active" id="html">
                   <pre><code class="prettyprint" ng-non-bindable>&lt;button gumga-click-sync="save({name: 'example'})"
         class="btn btn-primary"&gt;
-        Click me
+        Carregar
 &lt;/button&gt;</code></pre>
                 </div>
                 <div role="tabpanel" class="tab-pane" id="js">
@@ -113,7 +113,7 @@ angular.module('app', ['gumga.click-sync'])
               <td><strong>gumga-click-sync</strong></td>
               <td><code>Function</code></td>
               <td>Sim</td>
-              <td>Use gumga-click-sync ao invés de ng-click, execute uma função que retorne uma PROMISSE, o botão será desabilitado no click do usuário, após a PROMISSE ser resolvida o botão irá habilitar automaticamente.</td>
+              <td>Use gumga-click-sync ao invés de ng-click, execute uma função que retorne uma PROMISSE, o botão será desabilitado no click do usuário. Após a PROMISSE ser resolvida o botão irá habilitar automaticamente.</td>
             </tr>
           </tbody>
         </table>
